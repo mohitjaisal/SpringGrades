@@ -10,6 +10,7 @@
       <a th:href="@{/grades}">Grades</a>
     </div>   
     <div class="container">
+      <img src="./logo.png" alt="" width="40%"></img>
       <h2> Grade Portal </h2>
       <form method="post" th:object="${grade}" th:action="@{/handleSubmit}"> 
         <p style="color:red" th:errors="*{name}"> </p>
