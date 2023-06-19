@@ -1,5 +1,6 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/mohitjaisal/SpringGrades/master/src/main/resources/static/logo.png" alt="Spring Grades Logo" width="60%" height="auto" />
+  <div align="center">A concept explanation project by <a href="https://mohitjaisal.com"><b>Mohit Jaisal</b></a> </div>
 <br/>
   <p>
     This is a simple student grades system built using Spring Boot framework. The application follows a three-layer code base architecture and utilizes Thymeleaf for server-side rendering and MVC (Model-View-Controller) design pattern for handling user requests and responses.
@@ -24,41 +25,21 @@ cd student-grades-system
 mvn clean install
 ```
 
-
-Student Grades System
-This is a simple student grades system built using Spring Boot framework. The application follows a three-layer code base architecture and utilizes Thymeleaf for server-side rendering and MVC (Model-View-Controller) design pattern for handling user requests and responses.
-
-Installation
-To run the student grades system locally, follow these steps:
-
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/student-grades-system.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd student-grades-system
-Build the project using Maven:
-
-bash
-Copy code
-mvn clean install
-Run the application:
-
-bash
-Copy code
+- Run the application:
+```
 mvn spring-boot:run
-Open your web browser and visit http://localhost:8080 to access the student grades system.
+```
+
+- Open your web browser and visit `http://localhost:8080` to access the student grades system.
+ 
 
 ### Technologies Used
 The student grades system is built using the following technologies:
 
-<b>Spring Boot:</b> A popular Java framework for building web applications.
-<b>Thymeleaf:</b> A server-side Java template engine for rendering HTML.
-<b>MVC (Model-View-Controller):</b> A design pattern for structuring web applications.
+- <b>Spring Boot:</b> A popular Java framework for building web applications.
+- <b>Thymeleaf:</b> A server-side Java template engine for rendering HTML.
+- <b>MVC (Model-View-Controller):</b> A design pattern for structuring web applications.
+
 
 ### Project Structure
 The project follows a three-layer code base architecture, which helps in maintaining a clear separation of concerns and improves code organization. The layers are as follows:
@@ -69,20 +50,13 @@ The project follows a three-layer code base architecture, which helps in maintai
 
 <b>Data Access Layer:</b> Handles data persistence and retrieval. It communicates with the database or any other data source to perform CRUD (Create, Read, Update, Delete) operations.
 
-Run the application:
-```
-mvn spring-boot:run
-```
-
-Open your web browser and visit http://localhost:8080 to access the student grades system.
 
 ### Thymeleaf
 Thymeleaf is a server-side Java template engine that allows you to build dynamic web pages. It seamlessly integrates with Spring Boot and provides powerful features such as expression language, iteration, conditional statements, and form handling.
 
 To use Thymeleaf in your Spring Boot project, follow these steps:
 
-- Add the Thymeleaf dependency to your project's pom.xml file:
-
+- Add the Thymeleaf dependency to your project's `pom.xml` file:
 ```
 <dependency>
     <groupId>org.springframework.boot</groupId>
@@ -95,9 +69,10 @@ To use Thymeleaf in your Spring Boot project, follow these steps:
 spring.thymeleaf.enabled=true
 ```
 
-- Create Thymeleaf templates (HTML files) in the appropriate directory (e.g., src/main/resources/templates).
+- Create Thymeleaf templates (HTML files) in the appropriate directory (e.g., `src/main/resources/templates`).
 
-Use Thymeleaf expressions and tags in your templates to dynamically render data and handle user interactions.
+- Use Thymeleaf expressions and tags in your templates to dynamically render data and handle user interactions.
+
 
 ### MVC (Model-View-Controller)
 MVC is a design pattern that separates the concerns of an application into three components: the Model, the View, and the Controller.
@@ -145,4 +120,4 @@ You can use these annotations to ensure data integrity and enforce validation ru
 
 <b>Note:</b> Don't forget to include the necessary dependencies for validation in your pom.xml file and configure them appropriately in your Spring Boot application.
 
-This is a basic overview of the student grades system, Thymeleaf, the three-layer code base architecture, and the use of MVC and validation annotations in Spring Boot. Feel free to explore these concepts further and customize the implementation based on your requirements.
+> This is a basic overview of the student grades system, Thymeleaf, the three-layer code base architecture, and the use of MVC and validation annotations in Spring Boot. Feel free to explore these concepts further and customize the implementation based on your requirements.
